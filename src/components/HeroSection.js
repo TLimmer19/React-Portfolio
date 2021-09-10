@@ -6,10 +6,9 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className='hero-container'>
-            {/* <video src="/videos/video-2.mp4" autoPlay loop muted /> */}
-            <h1> VIDEO TITLE</h1>
-            <p>VIDEO SLOGAN</p>
-            <div className="hero-btns">
+            <img src="/images/Abasin.jpg"  />
+            <h1> Welcome to my Software Developer Portfolio</h1>
+            {/* <div className="hero-btns">
                 <Button 
                 className='btns' 
                 buttonStyle='btn--outline'
@@ -22,7 +21,7 @@ function HeroSection() {
                 buttonSize='btn--large'
                 >GET STARTED <i className='far fa-play-circle'/>
                 </Button>
-            </div>
+            </div> */}
         </div>
     )
 }

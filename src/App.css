@@ -8,8 +8,8 @@
   .home,
   .resume,
   .contact,
-  .portfolio,
-  .about-me {
+  .portfolio
+   {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -43,3 +43,6 @@
     color: #fff;
     font-size: 100px;
   }
+  /* .about-me{
+
+  } */

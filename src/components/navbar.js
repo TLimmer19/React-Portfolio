@@ -28,7 +28,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to ="/" className="navbar-logo" onClick={closeMobilMenu}>
-                       Thomas Limmer <i className='fab fa-typo3' />
+                       Thomas Limmer 
                     </Link>    
                     <div className='menu-icon' onClick= {handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -46,7 +46,7 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link to ='/portfolio' className='nav-links' onClick={closeMobilMenu}>
-                                Portfolio
+                                Work
                             </Link>
                         </li>
                         <li className='nav-item'>
@@ -60,7 +60,7 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>About Me</Button>}
+                    
                 </div>
             </nav>
         </>

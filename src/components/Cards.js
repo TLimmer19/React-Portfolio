@@ -9,29 +9,29 @@ function Cards() {
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
-                        <CardItem 
-                        src="images/img-9.jpg"
-                        text=""
-                        label=""
-                        path="/resume"
+                        <CardItem
+                        src="images/WW2.png"
+                        text="World War II Quiz"
+                        label="WW2 Quiz"
+                        path="https://tlimmer19.github.io/Quiz-Code/"
                         />
                         <CardItem 
-                        src="images/img-9.jpg"
-                        text=""
-                        label=""
-                        path="/contact"
+                        src="images/image-stargazer.png"
+                        text="Stargazer Nasa API"
+                        label="Project 1"
+                        path="https://jessamyn27.github.io/Stargazers-App-NASA-API/"
                         />
                         <CardItem 
-                        src="images/img-9.jpg"
-                        text=""
-                        label=""
-                        path="/portfolio"
+                        src="images/windows95.png"
+                        text="Windows 95 replica"
+                        label="Project 2"
+                        path="https://windows-95-uta.herokuapp.com/"
                         />
                         <CardItem 
-                        src="images/img-9.jpg"
-                        text=""
-                        label=""
-                        path="/about-me"
+                        src="images/Spuds-and-Duds.png"
+                        text="Spuds and Duds"
+                        label="Project 3"
+                        path="https://spudsandduds.herokuapp.com/"
                         />
                     </ul>
                 </div>
