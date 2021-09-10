@@ -1,6 +1,14 @@
 import React from "react";
-import '../../App.css'
-
+import '../../App.css';
+import ThomasLimmerResume from '../images2/ThomasLimmerResume.png';
 export default function Resume () {
-    return <h1 className='resume'>RESUME</h1>;
+    return (
+    <main>
+    <section>
+        <div className={"images hero-image"}>
+        <img src={ThomasLimmerResume}></img>
+        </div>
+         </section>
+    </main>
+    )
 }
